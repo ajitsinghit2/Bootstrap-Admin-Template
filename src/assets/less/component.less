@@ -2,12 +2,21 @@
 /*                 Component Styles                           */
 /*********************************************************/
 
+/* BEGIN PROGRESSBAR STYLES */
+
+
+.progress {
+  &.lg {height: 28px;}
+  &.md {height: 12px;}
+  &.xs {height: 6px;}
+}
+
+
 /* horizontal rules */
 .inner hr {
     margin-top: 10px;
     border-top-color: #ccc;
 }
-.progress.mini {height:6px;}
 
 .well.dark {
     -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
@@ -180,15 +189,7 @@
     width: 100%;
 }
 
-/* BEGIN PROGRESSBAR STYLES */
 
-.progress .bar.six-sec-ease-in-out {
-    -webkit-transition: width 6s ease-in-out;
-    -moz-transition: width 6s ease-in-out;
-    -ms-transition: width 6s ease-in-out;
-    -o-transition: width 6s ease-in-out;
-    transition: width 6s ease-in-out;
-}
 
 .progress.vertical .bar.six-sec-ease-in-out {
     -webkit-transition: height 6s ease-in-out;

@@ -1,12 +1,18 @@
 function progRess() {
-    "use strict";
-    /* required bootstrap-progressbar.min.js*/
-
-    $('.progress .bar.text-no').progressbar();
-    $('.progress .bar.text-filled').progressbar({
-        display_text: 1
-    });
-    $('.progress .bar.text-centered').progressbar({
-        display_text: 2
+  
+    window.prettyPrint && prettyPrint();
+  
+    $.each($('.progress .progress-bar'), function() {
+      
+      $(this).animate({
+	width: $(this).attr('aria-valuenow')+'%'
+      });
+      
+      $(this).popover({
+	placement: 'bottom',
+	title: 'Source',
+	content: this.outerHTML
+      });
+      
     });
 }

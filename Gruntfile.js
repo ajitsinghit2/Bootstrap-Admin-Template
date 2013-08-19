@@ -32,7 +32,8 @@ module.exports = function(grunt) {
                     'src/assets/js/metisMaps.js',
                     'src/assets/js/metisTable.js',
                     'src/assets/js/progress.js',
-                    'src/assets/js/button.js'
+                    'src/assets/js/button.js',		    
+                    'src/assets/js/metisSortable.js'
                 ],
                 dest: 'dist/assets/js/main.js'
             },
