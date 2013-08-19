@@ -19,3 +19,9 @@ http://demo.onokumus.com/metis/index.html
 
 #### For 2.0.0 version
 http://demo.onokumus.com/metis/v2/
+
+### Licensing
+
+Bootstrap Admin template is open-sourced software licensed under the [MIT License](http://opensource.org/licenses/MIT)
+
+[Buy me a coffee?](https://wrapbootstrap.com/theme/nuro-theme-WB0628X10)
